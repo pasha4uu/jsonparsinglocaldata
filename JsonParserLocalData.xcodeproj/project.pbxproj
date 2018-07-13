@@ -14,6 +14,8 @@
 		65FFF0D320F7610100DCBB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FFF0D120F7610100DCBB75 /* LaunchScreen.storyboard */; };
 		65FFF0DE20F7610200DCBB75 /* JsonParserLocalDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FFF0DD20F7610200DCBB75 /* JsonParserLocalDataTests.swift */; };
 		65FFF0E920F7610200DCBB75 /* JsonParserLocalDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FFF0E820F7610200DCBB75 /* JsonParserLocalDataUITests.swift */; };
+		65FFF10020F7741000DCBB75 /* someJSON.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FFF0FF20F7741000DCBB75 /* someJSON.txt */; };
+		65FFF10220F77C8700DCBB75 /* usersAPI.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FFF10120F77C8600DCBB75 /* usersAPI.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		65FFF0E420F7610200DCBB75 /* JsonParserLocalDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonParserLocalDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65FFF0E820F7610200DCBB75 /* JsonParserLocalDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParserLocalDataUITests.swift; sourceTree = "<group>"; };
 		65FFF0EA20F7610200DCBB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FFF0FF20F7741000DCBB75 /* someJSON.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = someJSON.txt; sourceTree = "<group>"; };
+		65FFF10120F77C8600DCBB75 /* usersAPI.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = usersAPI.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		65FFF0C720F760FE00DCBB75 /* JsonParserLocalData */ = {
 			isa = PBXGroup;
 			children = (
+				65FFF10120F77C8600DCBB75 /* usersAPI.txt */,
+				65FFF0FF20F7741000DCBB75 /* someJSON.txt */,
 				65FFF0C820F760FE00DCBB75 /* AppDelegate.swift */,
 				65FFF0CA20F760FE00DCBB75 /* ViewController.swift */,
 				65FFF0CC20F760FE00DCBB75 /* Main.storyboard */,
@@ -230,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FFF0D320F7610100DCBB75 /* LaunchScreen.storyboard in Resources */,
+				65FFF10220F77C8700DCBB75 /* usersAPI.txt in Resources */,
+				65FFF10020F7741000DCBB75 /* someJSON.txt in Resources */,
 				65FFF0D020F7610100DCBB75 /* Assets.xcassets in Resources */,
 				65FFF0CE20F760FE00DCBB75 /* Main.storyboard in Resources */,
 			);
